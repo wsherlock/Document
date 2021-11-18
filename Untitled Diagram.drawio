@@ -1,6 +1,6 @@
-<mxfile modified="2021-11-18T05:10:37.691Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="uOzf-Ddv9k96e8A7822P" version="15.8.2" type="github">
+<mxfile modified="2021-11-18T05:21:08.970Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="B088snsyp29CCKd5NtiR" version="15.8.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1312" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,10 @@
         </mxCell>
         <mxCell id="dtCVNibUKD_6vnPwl8ef-28" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=23;startArrow=classic;startFill=1;strokeColor=#737373;strokeWidth=2;" edge="1" parent="1" target="dtCVNibUKD_6vnPwl8ef-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="508" y="329" as="sourcePoint" />
+            <mxPoint x="510" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="599" y="340" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dtCVNibUKD_6vnPwl8ef-29" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=23;startArrow=classic;startFill=1;strokeColor=#737373;strokeWidth=2;" edge="1" parent="1" source="dtCVNibUKD_6vnPwl8ef-24" target="dtCVNibUKD_6vnPwl8ef-25">
@@ -76,8 +79,31 @@
         <mxCell id="dtCVNibUKD_6vnPwl8ef-35" value="Recieve Order Service" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eks_distro;" vertex="1" parent="1">
           <mxGeometry x="100" y="290" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="dtCVNibUKD_6vnPwl8ef-38" value="回&lt;br&gt;推&lt;br&gt;出&lt;br&gt;票&lt;br&gt;信&lt;br&gt;息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="880" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dtCVNibUKD_6vnPwl8ef-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#737373;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="250" as="targetPoint" />
+            <mxPoint x="250" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="250" y="250" />
+              <mxPoint x="130" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtCVNibUKD_6vnPwl8ef-44" value="&lt;span&gt;收单接口，用于获取待出票数据&lt;/span&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="100" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="dtCVNibUKD_6vnPwl8ef-36" value="AutoTicket Service" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eks_distro;" vertex="1" parent="1">
           <mxGeometry x="430" y="290" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="dtCVNibUKD_6vnPwl8ef-46" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontSize=23;startArrow=classic;startFill=1;strokeColor=#737373;strokeWidth=2;endArrow=none;" edge="1" parent="1" target="dtCVNibUKD_6vnPwl8ef-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="508" y="329" as="sourcePoint" />
+            <mxPoint x="690.0000000000002" y="340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
